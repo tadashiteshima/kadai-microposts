@@ -22,6 +22,9 @@
                             {!! Form::close() !!}
                         @endif
                     </div>
+                    <div>
+                        @include('user_favorite.favorites_button')
+                    </div>
                 </div>
             </li>
         @endforeach
